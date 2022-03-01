@@ -81,7 +81,7 @@ Write-Output $sk
 tsm licenses activate -k $sk
 cd ~\Downloads\server
 tsm register -f reg.json
-tsm settings import -f conf.json
+tsm settings import -f config.json
 tsm pending-changes apply
 tsm initialize --request-timeout 1800
 tsm start --request-timeout 900
