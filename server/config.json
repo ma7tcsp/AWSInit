@@ -1,0 +1,35 @@
+{
+   "configEntities":{
+      "runAsUser":{
+         "_type":"runAsUserType",
+         "name":"NT AUTHORITY\\NetworkService"
+      },
+      "gatewaySettings":{
+         "_type":"gatewaySettingsType",
+         "port":8080,
+         "firewallOpeningEnabled":true,
+         "sslRedirectEnabled":true,
+         "publicHost":"localhost",
+         "publicPort":8080,
+         "sslEnabled":false,
+         "sslPort":443
+      },
+      "identityStore":{
+         "_type":"identityStoreType",
+         "type":"local"
+      }
+   },
+   
+   "configKeys" : {
+		"config.version" : 20,
+		"vizqlserver.trustedticket.try_count" : 10,
+		"vizqlserver.trustedticket.use_deprecated_v2_tickets" : false,
+		"vizqlserver.trustedticket.timeout_in_seconds" : 180,
+		"vizqlserver.trustedticket.token_length" : 24,
+		"wgserver.trusted_hosts" : "127.0.0.1,localhost",
+		"vizqlserver.trustedticket.use_deprecated_9digit_token" : false,
+		"vizqlserver.trustedticket.log_level" : "info",
+		"wgserver.clickjack_defense.enabled" : false,
+	   	"wgserver.unrestricted_ticket" : true
+	}
+}
