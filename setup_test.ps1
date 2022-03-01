@@ -25,6 +25,8 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ma7tcsp/AWSInit/main/d
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ma7tcsp/AWSInit/main/server/reg.json" -OutFile "~\Downloads\server\reg.json"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ma7tcsp/AWSInit/main/server/config.json" -OutFile "~\Downloads\server\config.json"
 
+exit
+
 #install useful programs
 choco install notepadplusplus -y
 choco install 7zip -y
