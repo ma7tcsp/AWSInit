@@ -78,7 +78,7 @@ choco install tableau-server -y
 refreshenv
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")
 Write-Output $sk
-tsm licenses activate $sk
+tsm licenses activate -k $sk
 cd ~\Downloads\server
 tsm register -f reg.json
 tsm settings import -f conf.json
