@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Tableau\Registration\Data]
+"company"="tableau"
+"country"="GB"
+"db_title"="demo"
+"department"="Analytics"
+"elqCustomerGUID"=""
+"email"="demo@tableau.com"
+"first_name"="tableau"
+"form_environment"="qt"
+"form_variant"="short"
+"job_role"="Analyst"
+"last_name"="demo"
+"phone"="01234567890"
+"product_name"="desktop"
+"state"="London"
+"title"="Analytics Analyst"
+"zip"="SE1 0SU"
+"registration_date"="02/28/2022 06:03:47.529 PM"
