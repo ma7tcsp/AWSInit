@@ -30,6 +30,7 @@ choco install notepadplusplus -y
 choco install 7zip -y
 choco install git -y
 choco install atom -y
+choco install postman -y
 choco install googlechrome -y
 #	set chrome as default browser
 function Set-ChromeAsDefaultBrowser {
