@@ -71,7 +71,7 @@ choco install tableau-desktop --ia $ia --force -y
 cd ~
 
 #install tableau prep
-choco install tableau-prep-builder
+choco install tableau-prep-builder -y
 
 #install tableau server
 choco install tableau-server -y
