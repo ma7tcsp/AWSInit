@@ -132,7 +132,8 @@ Function New-PinnedItem {
     [void][System.Runtime.InteropServices.Marshal]::ReleaseComObject([System.__ComObject]$obj)
 }
 
-Remove-Item "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband" -Recurse -Force
-Stop-Process -Processname Explorer -WarningAction SilentlyContinue -ErrorAction SilentlyContinue -Force
+#Remove-Item "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband" -Recurse -Force
+#Stop-Process -Processname Explorer -WarningAction SilentlyContinue -ErrorAction SilentlyContinue -Force
+New-PinnedItem -Path 'C:\Program Files\Internet Explorer\iexplore.exe'
 New-PinnedItem -Path 'C:\Program Files\Google\Chrome\Application\chrome.exe'
 New-PinnedItem -Path 'Explorer'
