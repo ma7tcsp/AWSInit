@@ -135,3 +135,4 @@ Function New-PinnedItem {
 Remove-Item "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband" -Recurse -Force
 Stop-Process -Processname Explorer -WarningAction SilentlyContinue -ErrorAction SilentlyContinue -Force
 New-PinnedItem -Path 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+New-PinnedItem -Path 'Explorer'
